@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="应用内跳转" />
+
+        <Button
+            android:id="@+id/btn_result"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="带返回结果跳转" />
+
+        <Button
+            android:id="@+id/btn_listener"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="监听路由过程" />
+
+        <Button
+            android:id="@+id/btn_params"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="带参数跳转" />
+
+        <Button
+            android:id="@+id/btn_anim"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="跳转动画" />
+
+        <Button
+            android:id="@+id/btn_uri"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="uri跳转" />
+
+        <Button
+            android:id="@+id/btn_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Fragment跳转" />
+
+        <Button
+            android:id="@+id/btn_interceptor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="拦截器" />
+
+        <Button
+            android:id="@+id/btn_group"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="自定义分组" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
